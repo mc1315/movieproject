@@ -1,0 +1,73 @@
+body {
+    margin: 10px 20px;
+}
+
+body, a {
+    font-family: sans-serif;
+    color: darkslategrey;
+    background-color: rgb(252, 247, 241);
+    text-align: justify;
+}
+
+li, #reasons {
+    line-height: 1.5em;
+}
+
+.image {
+    padding-top: 15px;
+}
+
+.page-link {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* removed, replaced with padding-right on the article and adjusted line height for #reasons
+aside {
+    flex: 1;
+    min-width: 200px;
+} */
+  
+article {
+    flex: 2;
+    min-width: 300px;
+    padding-right: 50px;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+  
+nav li {
+    margin-right: 80px;
+}
+
+.image {
+    margin-right: 50px;
+}
+
+#images {
+    max-width: 90%;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 1000px) {
+    #images {
+      flex-wrap: wrap;
+    }
+  }
