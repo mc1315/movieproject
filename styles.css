@@ -35,11 +35,9 @@ header {
     align-items: baseline;
 }
 
-/* removed, replaced with padding-right on the article and adjusted line height for #reasons
 aside {
-    flex: 1;
-    min-width: 200px;
-} */
+    width: 100%;
+}
   
 article {
     flex: 2;
